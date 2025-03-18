@@ -9,9 +9,9 @@ When it's Installed You can open Well.py
 Images des différents menues disponibles dans mon tools :
 
 Menu 1:
-![Well-Tools(Menu1)](https://github.com/user-attachments/assets/7718dedf-ac6d-4a7b-98d1-1810da751a51)
-Scanner, Osint and Attack categories
 
+Scanner, Osint and Attack categories
+![Well-Tools (menu 1)](https://github.com/user-attachments/assets/530defb5-6ee4-4087-bccf-93bc32b1905f)
 Menu 2:
 ![Well-Tools(Menu2)](https://github.com/user-attachments/assets/26494400-ff04-4156-a24b-f757b9ce3c17)
 Look-UP, Generator and one more categories in developpemnt

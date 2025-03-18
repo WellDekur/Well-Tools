@@ -14,13 +14,13 @@ except Exception as e:
 
 #Scanner Part
 
-option_01 = " Website-Vulnerability-Scanner"
-option_02 = "Website-Info-Scanner"
-option_03 = "Website-Url-Scanner"
-option_04 = "Ip-Scanner"
-option_05 = "Ip-Port-Scanner"
+option_01 = " Site-Scanner-Vulnerability"
+option_02 = "Site-Scanner-information"
+option_03 = "Site-URL-Scan"
+option_04 = "Ip-Scan"
+option_05 = "Ip-Port-Scan"
 option_06 = "Ip-Pinger"
-option_07 = "Search-In-DataBase"
+option_07 = "Soon"
 option_08 = "Soon"
 option_09 = "Soon"
 option_10 = "Soon"
@@ -44,7 +44,7 @@ option_21 = "Phishing-Attack"
 option_22 = "Password-Decrypted-Attack"
 option_23 = "Password-Encrypted"
 option_24 = "DDOS"
-option_25 = "Soon"
+option_25 = "Email-Bomber"
 option_26 = "Soon"
 option_27 = "Soon"
 option_28 = "Soon"
@@ -199,25 +199,25 @@ option_77_txt = f"{blue}[{white}77{blue}]{white} " + option_77.ljust(30)[:30].re
 option_78_txt = f"{blue}[{white}78{blue}]{white} " + option_78.ljust(30)[:30].replace("-", " ")
 option_79_txt = f"{blue}[{white}79{blue}]{white} " + option_79.ljust(30)[:30].replace("-", " ")
 
-option_back_txt = option_back + f" {blue}[{white}B{blue}]{white}"
-option_next_txt = option_next + f" {blue}[{white}N{blue}]{white}"
+option_back_txt = option_back + f" {blue}B"
+option_next_txt = option_next + f" {blue}N"
 
 menu1 = f"""                                                                                                           {option_next_txt}         
- ╚═╦═════════║     Scanner     ║════════╦══════════════║ Osint ║═════════════╦════║  Attack  ║════════════════════║
+   ╦═════════║     Scanner     ║════════╦══════════════║ Osint ║═════════════╦════════════║  Attack  ║════════════║
    ║                                    ║                                    ║                                    ║ 
    ║ {option_01_txt                   } ║ {option_11_txt                     }║ {option_21_txt     }║
    ║ {option_02_txt                    }║ {option_12_txt                    }║ {option_22_txt     }║
    ║ {option_03_txt                    }║ {option_13_txt                    }║ {option_23_txt     }║
    ║ {option_04_txt                    }║ {option_14_txt                    }║ {option_24_txt     }║
-   ║ {option_05_txt                    }║                                    ║                                    ║
+   ║ {option_05_txt                    }║                                    ║ {option_25_txt     }║
    ║ {option_06_txt                    }║                                    ║                                    ║ 
-   ║ {option_07_txt                    }║                                    ║                                    ║ 
+   ║                                    ║                                    ║                                    ║ 
    ╚════════════════════════════════════╩════════════════════════════════════╩════════════════════════════════════╝
 """    
 
 menu2 = f"""                                                                                                
 {option_back_txt}                                                                                                      {option_next_txt}
-║═══════════║     Look Up     ║═══════════╦══════║     Generator    ║══════════╦═══════║     Soon      ║═════════╝
+║═══════════║     Look Up     ║═══════════╦════════║    Generator    ║═════════╦═══════║     Soon      ║═════════╝
 ║                                         ║                                    ║
 ║ {option_32_txt                    }     ║ {option_41_txt                    }║
 ║ {option_33_txt                    }     ║ {option_42_txt                    }║
@@ -228,9 +228,9 @@ menu2 = f"""
 ╚═════════════════════════════════════════╩════════════════════════════════════╩                                         
 """
 
-menu3 = f"""                                                                                                          {option_back_txt} ═╗
-                                                                                                                    ║
-═══╦═══════════════════════════════════════════════════║ Discord ║═══════════╦══════════════════════════════════════║
+menu3 = f"""                                                                                                          {option_back_txt} 
+                                                                                                                    
+   ╦═══════════════════════════════════════════════════║ Discord ║═══════════╦══════════════════════════════════════║
    ║ {option_51_txt                    }║ {option_61_txt                    }║ {option_70_txt                    }  ║
    ║ {option_52_txt                    }║ {option_62_txt                    }║ {option_71_txt                    }  ║
    ║ {option_53_txt                    }║ {option_63_txt                    }║                                      ║
@@ -297,8 +297,8 @@ while True:
       Title(f"Menu {menu_number}")
       Slow(MainColor(banner))
 
-      choice = input(MainColor(f""" ┌──({white}{username_pc}@Well-Tools)─{blue}[{white}~/{os_name}/Menu-{menu_number}]
- └─{white}$ {reset}"""))
+      choice = input(MainColor(f""" ({white}@Well-Tools)─{blue}[Menu-{menu_number}]
+ {white} {reset}"""))
 
       if choice in ['N', 'n', 'NEXT', 'Next', 'next']:
             menu_number = {"1": "2", "2": "3", "3": "1"}.get(menu_number, "1")
